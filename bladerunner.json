@@ -1,22 +1,28 @@
 {
-    "maintainer": [
-        {
-            "display_name": "AAMIR ALI",
-            "telegram": "https://t.me/alischatroom",
-            "github": "https://github.com/AAMIRR-ALI"
-        }
-    ],
-    "beta": true,
-    "version": "fourteen",
-    "available_versions": [
-        "fourteen",
-    ],
-    "release": "monthly",
-    "device_display_name": "Realme X50 Pro/Player 5G",
-    "device_display_codename": "bladerunner",
-    "public_download": "https://sourceforge.net/projects/projectmatrixx/files/Android-14/bladerunner/",
-    "last_updated": "12 November 2023",
-    "active": true,
-    "customRecoveryRequired": true,
-    "xda": null
+	"response": [
+		{
+			"maintainer": "AAMIRR ALI",
+			"oem": "Realme",
+			"device": "X50 Pro 5G",
+			"filename": "Matrixx-v10.0-BETA-4-Official-bladerunner-Gapps-20231130.zip",
+			"download": "https://sourceforge.net/projects/projectmatrixx/files/Android-14/bladerunner/Matrixx-v10.0-BETA-4-Official-bladerunner-Gapps-20231130.zip/download",
+			"timestamp": 1701528448,
+			"md5": "c673c67bfd1604732ae3ce3938000884",
+			"sha256": "df3c0a040ee7fc85e830fb96ef54e3e9e27e7917431467f12c05f43125c90ab6",
+			"size": 1205727162,
+			"version": "10.0",
+			"buildtype": "Beta",
+			"forum": "https://xdaforums.com/t/4640827",
+			"gapps": "https://nikgapps.com/crdroid-official",
+			"firmware": "",
+			"modem": "",
+			"bootloader": "",
+			"recovery": "https://sourceforge.net/projects/crdroid/files/beryllium/10.x/recovery/",
+			"paypal": "https://paypal.me/gwolf2u",
+			"telegram": "https://t.me/crDroidPoco",
+			"dt": "https://github.com/crdroidandroid/android_device_xiaomi_beryllium",
+			"common-dt": "https://github.com/crdroidandroid/android_device_xiaomi_sdm845-common",
+			"kernel": "https://github.com/crdroidandroid/android_kernel_xiaomi_sdm845"
+		}
+	]
 }
