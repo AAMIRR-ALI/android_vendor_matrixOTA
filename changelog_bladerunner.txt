@@ -1,94 +1,35 @@
-Highlights & Device Specific Changes:
-Build type: Beta
-Device: Pocophone F1 (beryllium)
-Device maintainer: Lup Gabriel (gwolfu)
+Device: Realme X50 Pro/Player 5G (bladerunner)
+Device maintainer:AAMIR_ALI
 
-===== 02 December, 2023 =====
+==== Changelog 30 Nov 2023 =====
+- Sync with latest MATRIXX source
+- NFC fixed
+- Enable SecureNFC feature
+- OPlusExtras Added back
+- Viper4FX Added
+- Enable blur effect Added
+- BCR call recorder Added
+- Switch to Google dialer/message
+- Facelock Added
+- Improve Haptic
+- Refresh rate QS tile Added 
+- Peak/Min refresh rate switch Added
+- Enforce keymaster 4.1 to all targets
+- Add option to use fscompress for F2FS
+- Enable casefolding support on userdata
+- Add SSR files and prop to start ssr_setup
+- Set correct chained vbmeta to selected partition
+- Match vbmeta.img with stock
+- Set readahead_size_kb=128 to system and data
+- Use FUSE passthrough mode by default
+- Use metadata_csum for /metadata
+- Improved system performance and stability
 
-- Added statusbar roaming indicator
-- libhwui: Improvements to performance 
-- OmnijawsClient: Fix widget theme
-- NotificationShade: Make blur crossfading more gradual
-- Some other small changes here and there
-- Updated translations
+==== Changelog 12 Nov 2023 ====
 
-===== 01 December, 2023 =====
-
-!!! Note that this build requires new Gapps to enable new features (check gapps button on download page) !!!
-
-- FaceUnlock: Fix SecurityException with registerReceiver
-- Added some missing themed icons
-- OmniJaws: Restore style for widget config activity
-- Allow using 4G icon instead of LTE
-- Fixed SystemUI crash caused by Gboard
-- Island: Improvements and fixes
-- Updated translations
-
-===== 28 November, 2023 =====
-
-- Fixed SafetyNet and Play Integrity
-- Fixed continuous crash issue in persistent apps
-- Added Quick Tap
-- Added face unlock (neeeds reboot after setup - for now)
-- Added optional weather text on lockscreen and clean up
-- Added Island notifications
-- Added separate customization for QS footer transparency
-- Added dual tone QS background
-- Added QS footer data usage
-- Moved blur toggle to display options
-- Move Extra Dim feature to display
-- Launcher3: Show toast when clearing all apps
-- Improvements to stability and performance
-- Settings: Add icon for emergency broadcasts
-- DataSwitchTile: Set default data subid when data is enabled
-- Removed ReTicker
-- Updated OmniJaws
-- Update Google Sans font
-- Updated sqlite
-- Updated translations
-
-===== 24 November, 2023 =====
-
-- Fixed slow RIL loading (hopefully for good)
-- Fixed crash when clicking Spell Checker
-- Fixed AlarmManager high CPU issue
-- Fixed some memory leaks
-- Fixed BatteryStyles
-- Fixed Settings: Allow to quickly open Running Services from meminfo view
-- Fixed Launcher3 showing actual memory without rounding up
-- Added KernelSU 0.7.1
-- Some other small fixes
-- Added missing icons for some settings
-
-===== 19 November, 2023 =====
-
-- Implemented glass blur effect
-- Remove MIUI poweroff charging animation (using AOSP now)
-- Fixed possible GPS issues
-
-===== 17 November, 2023 =====
-
-- Fixed issue with Desk Clock not ringing when increase ringing is enabled
-- Desk Clock: Improved theming options
-- Fixed SafetyNet
-
-===== 16 November, 2023 =====
-
-- Added quick unlock
-- Launcher3: Little revamp for app info bottom sheet
-- Fixed some sepolicy denials
-- Created brightness slider category under crDroid Settings
-- Fixed animations
-- Fixed padding in keyguard carrier
-- Fixed security patch level not being listed in about page
-- SystemUI: Add charging icon to the charging animation
-- SystemUI: Improved charging animation
-- Battery Styles: Fixes and clean up
-- Updated Chromium Webview to 119.0.6045.134
-- Fixed some Updater issues
-- Some small ART optimizations
-- Improved responsiveness
-
-===== 11 November, 2023 =====
-
-- initial release
+- Initial A14 build.
+- SeLinux - Enforcing.
+- Camera included by default 
+- As always no issues with play integrity, so enjoy banking apps flawlessly.
+- Enjoy more added
+customizations.
